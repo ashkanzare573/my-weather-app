@@ -1,8 +1,6 @@
-# Welcome to React Router!
+# My Weather App
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A modern, responsive weather application built with React, React Router, and TailwindCSS. Get real-time weather updates, search for locations, and view popular surf spots—all in a fast and user-friendly interface.
 
 ## Features
 
