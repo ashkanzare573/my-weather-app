@@ -52,8 +52,13 @@ To build and run using Docker:
 docker build -t my-app .
 
 # Run the container
-docker run -p 3000:3000 my-app
+# Map port 5173 in the container to 5173 on your host
+# Then open http://127.0.0.1:5173/ in your browser
+
+docker run -p 5173:5173 my-app
 ```
+
+Your app will be available at: http://127.0.0.1:5173/
 
 The containerized application can be deployed to any platform that supports Docker, including:
 
